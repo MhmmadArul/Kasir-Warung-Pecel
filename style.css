@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 6px 7px green;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.navbar-brand h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    color: red;
+    text-shadow: -2px 2px rgb(187, 4, 4);
+    margin-top:7px;
+}
+
+.no-1 img {
+    width: 90px;
+    height: 90px;
+}
+
+.bestS img {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
+
+/* BOX TENGAH */
+.box-Pmenu {
+    border: 3px solid rgba(0, 128, 0, 5);
+    background-color: rgb(223, 59, 59);
+    border: 5px solid rgb(255, 111, 111);
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 25px;
+    padding: 10px 20px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-Pmenu h2,h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.box-Pmenu h3 {
+    text-decoration: underline;
+}
+
+.box-Pmenu select {
+    padding: 5px;
+    width: 200px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.box-Pmenu .sayur {
+    padding-top: 10px;
+}
+
+.box-Pmenu .minum {
+    padding-top: 10px
+}
+
+.welcome {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+    color: rgb(84, 243, 84);
+}
+
+.box-Pmenu button{
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    text-decoration: none;
+}
+
+.box-Pmenu button:hover {
+    background-color: rgb(26, 158, 26);
+}
+
+.box-Pmenu p {
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* BOX KIRI */
+.box-menuT {
+    background-color: rgb(57, 138, 57);
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 400px;
+    height: 430px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.box-menuT .c1 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.box-menuT .c2 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+
+.box-menuT .c3 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+.box-menuT .c4 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 220px;
+}
+
+
+.box-menuT .c5 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 275px;
+}
+
+.box-menuT .c6 {
+    background-color: rgb(71, 165, 71);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 290px;
+    left: 240px;
+}
+
+.box-menuT .listM {
+    margin-top: 20px;
+    margin-left: 190px;
+    background-color: rgb(94, 206, 2);
+    border: 3px solid red;
+    width: 180px;
+    height: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    border-radius: 10px;
+}
+
+.box-menuT .listM h5 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    color: red;
+    padding-bottom: 3px;
+}
+
+.box-menuT .listM  ul li {
+    color: white;
+}
+
+.box-menuT .listS {
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: rgb(94, 206, 2);
+    border: 3px solid red;
+    width: 180px;
+    height: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.box-menuT .listS h5 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    color: red;
+}
+
+.box-menuT .listS  ul li {
+    color: white;
+}
+
+.box-menuT .ayam {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 35px;
+
+}
+
+.box-menuT .bebek {
+    position: absolute;
+    margin-top:265px;
+    margin-left: 235px;
+}
+
+.box-menuT img {
+    width: 110px;
+    height: 110px;
+}
+
+
+
+.box-total {
+    background-color: rgb(57, 138, 57);
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 300px;
+    height: 430px;
+    margin-top: 25px;
+}
+
+.box-total h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 10px;
+    color: rgb(229, 255, 0);
+}
+
+.bayar ul li{
+    margin-left: 30px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+.total {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.total h3 {
+    font-size: 1.5rem;
+    color: rgb(229, 255, 0);
+}
+
+
+

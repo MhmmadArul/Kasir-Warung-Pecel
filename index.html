@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesen Makan</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="no-1">
+                <img src="img/1.png" alt="">
+            </div>
+            <div class="navbar-brand">
+                <h1>---------- WARUNG PECEL BUDEH ----------</h1>
+            </div>
+            <div class="bestS">
+                <img src="img/bs.png" alt="">
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- box kiri -->
+            <div class="box-menuT">
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+                <div class="c4"></div>
+                <div class="c5"></div>
+                <div class="c6"></div>
+                <img src="img/Ayam.png" alt="Ayam" class="ayam">
+                <img src="img/bebek.png" alt="bebek" class="bebek">
+                <div class="listM">
+                    <h5>Daftar Menu Lauk</h5>
+                <ul>
+                    <li>Pecel Ayam</li>
+                    <li>Pecel Lele</li>
+                    <li>Bebek Goreng</li>
+                    <li>Ayam Bakar</li>
+                    <li>Soto Ayam</li>
+                    <li>Soto Daging</li>
+                </ul>
+                </div>
+
+                <div class="listS">
+                    <h5>Daftar Menu Sayur</h5>
+                <ul>
+                    <li>Sayur Asem</li>
+                    <li>Sayur Lodeh</li>
+                    <li>Cah Kangkung</li>
+                    <li>Sayur Bayem</li>
+                    <li>Tongseng</li>
+                    <li>Tumis Capcai</li>
+                </ul>
+                </div>
+            </div>
+
+
+            <!-- box tengah -->
+            <div class="box-Pmenu">
+                <div class="welcome">SELAMAT DATANG DI <br> WARUNG PECEL BUDEH</div>
+
+
+
+                <h3 class="lauk">Lauk Pauk </h3>
+                <select name="lauk" id="lauk">
+                    <option></option>
+                    <option value="14000">Pecel Ayam</option>
+                    <option value="12000">Pecel Lele</option>
+                    <option value="17000">Bebek Goreng</option>
+                    <option value="15000">Ayam Bakar</option>
+                    <option value="11000">Soto Ayam</option>
+                    <option value="13000">Soto Daging</option>
+                </select>
+                <select name="porsiL" id="porsiL">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+
+
+                <h3 class="sayur">Sayur</h3>
+                <select name="sayur" id="sayur">
+                    <option></option>
+                    <option value="10000">Sayur Asem</option>
+                    <option value="11000">Sayur Lodeh</option>
+                    <option value="10000">Sayur Bayem</option>
+                    <option value="12000">Cah Kangkung</option>
+                    <option value="12000">Tumis Capcai</option>
+                </select>
+                <select name="porsiS" id="porsiS">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+
+
+                <h3 class="minum">Minuman</h3>
+                <select name="minum" id="minum">
+                    <option></option>
+                    <option value="5000">Teh Manis Anget</option>
+                    <option value="6000">Teh Manis Dingin</option>
+                    <option value="5000">Es Jeruk</option>
+                    <option value="3000">Air Putih Anget</option>
+                    <option value="4000">Air Putih Dingin</option>
+                    <option value="6000">Susu Jahe</option>
+                </select>
+                <select name="porsiM" id="porsiM">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br>
+                <br>
+
+
+
+                <!-- <a href="bayar.html" id="total">Bayar</a> -->
+                <button type="button" id="total">Pesan</button>
+                <button type="reset" id="reset">Hapus Pesanan</button>
+                <p>*harap hapus pesanan jika double pesan</p>
+            </div>
+
+
+
+            <!-- box kanan -->
+            <div class="box-total">
+               <h2>Daftar Pesanan Anda :</h2>
+                <div class="bayar">
+                    <ul id="makan"></ul>
+                    <ul id="makan2"></ul>
+                    <ul id="minum1"></ul>
+                </div>
+
+                <div class="total">
+                    <h3>Total Pesanan : </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
